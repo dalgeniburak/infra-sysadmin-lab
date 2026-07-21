@@ -79,6 +79,4 @@ Resolve-DnsName lab.local
 
 - Criação do DC02 e configuração de replicação entre controladores de domínio.
 
-## Screenshots
 
-_Ver pasta [`screenshots/`](./screenshots/)._
