@@ -78,10 +78,3 @@ Os dois trabalham juntos: o NAT diz para onde o pacote vai, e a regra diz se ele
 - Criar regras na LAN para controlar o que a VM pode acessar.
 - Substituir o Port Forward por uma VPN (OpenVPN ou WireGuard no pfSense).
 
-## Prints sugeridos para anexar
-
-1. Interfaces > WAN > Reserved Networks, com *Block private networks* desmarcado.
-2. Tela de edição do Port Forward, com origem, destino e redirecionamento.
-3. Firewall > Rules > WAN, mostrando a regra associada.
-4. Resultado do `Test-NetConnection` com `TcpTestSucceeded : True`.
-5. Conexão RDP aberta na VM.
